@@ -1,0 +1,82 @@
+.login {
+  height: 465px;
+  margin:40px 0 0 177px;
+  position: relative;
+  border-top: 1px solid #000;
+  background: url("../images/login.jpg") no-repeat;
+  form{
+    width:685px;
+    height:433px;
+    position: absolute;
+    left: 400px;
+    padding-top: 32px;
+    input{
+      padding-left: 8px;
+      width:297px;
+      height:32px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      outline: none;
+      border:1px solid #ccc;
+    }
+    .password{
+      background: url("../images/password.jpg") no-repeat right top;
+    }
+    .user{
+      background: url("../images/user.jpg") no-repeat right top;
+    }
+    .ipt3{
+      width:130px;
+      height:37px;
+      margin-bottom: 33px;
+    }
+    .cx{
+      width:15px;
+      height:15px;
+    }
+    .code{
+      display: inline-block;
+      width:82px;
+      line-height:32px;
+      background-color: #828282;
+      position:absolute;
+      bottom:252px;
+      left:145px;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .cg{
+      margin-left: 90px;
+      color: #999;
+    }
+    .login_btn{
+      width:305px;
+      height:43px;
+      background-color: #d32402;
+      border:none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight:bold;
+      color: #fff;
+      position: absolute;
+      left:0;
+      bottom:131px;
+    }
+    ul{
+      position: absolute;
+      top:257px;
+      left:150px;
+      li{
+        color: #999999;
+        float: left;
+      }
+    }
+    p{
+      margin-top: 80px;
+      width:136px;
+      height:50px;
+    }
+  }
+}

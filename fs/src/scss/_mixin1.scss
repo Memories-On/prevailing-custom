@@ -1,0 +1,14 @@
+@mixin link-colors($normal, $hover) {
+  color: $normal;
+  &:hover { color: $hover; }
+}
+@mixin link-bgColors($normal, $hover, $visited) {
+  background-color: $normal;
+  &:hover { background-color: $hover; }
+  &:visited { background-color: $visited; }
+}
+@mixin link-position($top,$left){
+  position:absolute;
+  top:$top;
+  left: $left;
+}

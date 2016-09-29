@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-size: 12px;
+}
+html body{
+  height:100%;
+  width:100%;
+}
+ul li{
+  list-style: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+  border:none;
+  cursor: pointer;
+}
+span{
+  color : $darkred;
+  cursor: pointer;
+}
+.info{
+  text-decoration: underline;
+}
+.info1{
+  color: $darkred;
+}

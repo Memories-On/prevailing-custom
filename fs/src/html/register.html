@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../css/main.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container">
+        <div class="reg_logo"><img src="../images/reg_logo.jpg"/></div>
+        <ul class="step">
+            <li class="new">新用户注册</li>
+            <li>电话订购会员登录</li>
+            <p>我已经注册,现在就<span>登录</span></p>
+        </ul>
+        <div class="register">
+            <form>
+                <label><span>* </span>手机:</label><input class="phone"/><span class="span1"> 请填写您的手机号码</span><br/>
+                <label><span>* </span>短信验证码:</label><input class="message"/><button class="get">获取验证码</button><span class="span1"> 请填写收到的短信验证码PS:60s内不能再发送</span><br/>
+                <label>邮箱:</label><input class="mail"/><span class="span1"> 订单信息和邮件信息通过邮件发送</span><br/>
+                <label><span>* </span>设置密码:</label><input class="password"/><span class="span1"> 6-20位，区分大小写</span><br/>
+                <label><span>* </span>确认密码:</label><input class="password"/><span class="span1"> 请再输入一遍上面填写的密码</span><br/>
+                <label>验证码:</label><input class="putCode"/><a class="authCode"></a><span class="change"> 更换</span><br/>
+                <input class="reg_btn" type="button" value="立即注册"/>
+            </form>
+        </div>
+        <div class="bottom">
+            <p class="p1"><span class="span1">触屏版 </span><span> 电脑版</span></p>
+            <p>ICP经营许可证:赣ICP备15000001号</p>
+            <p>24小时订购和服务热线: 4001-677-077</p>
+            <p>Copyright2008-2014,www.fstvgo.com 风尚购物 版权所有</p>
+            <p>本网站用字经北京北大方正电子有限公司授权许可</p>
+        </div>
+    </div>
+    <script src="../js/lib/jquery-1.8.3.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+</body>
+</html>

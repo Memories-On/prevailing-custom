@@ -1,0 +1,646 @@
+#container{
+  width: 1263px;
+  margin:0 auto;
+  position: relative;
+}
+#head{
+  height:32px;
+  background-color: $lgray;
+  position: relative;
+  .ul1{
+    margin-left: 844px;
+    li{
+      cursor: pointer;
+      float: left;
+      padding: 0 10px;
+      line-height: 32px;
+      position: relative;
+    }
+  }
+  .mine{
+    width:80px;
+    background-color: #f2f2f2;
+    z-index: 1;
+    border: 1px solid #ccc;
+    position: absolute;
+    top:32px;
+    left:-10px;
+    display: none;
+    p{
+      text-align: center;
+    }
+  }
+}
+#logo,#menu,#preference,.Shopping_navigation,.subscibe{
+  width:1202px;
+  margin-left:$marginLeft;}
+#logo{
+  height:203px;
+  position: relative;
+  .img1{
+    margin:29px 50px 0 0 ;
+  }
+  .ser{
+    width:417px;
+    height:42px;
+    @include link-position(120px,392px);
+    input{
+      width:321px;
+      height:36px;
+      border:3px solid $darkred;
+      float: left;
+      outline:none;
+    }
+    img{
+      float: left;
+    }
+  }
+  .free{
+    position: absolute;
+    top:130px;
+    left:847px;
+  }
+  ul{
+    @include link-position(170px,392px);
+    li{
+      float: left;
+      padding:0 5px;
+      color: $gray;
+    }
+  }
+}
+/****************************菜单*******************************/
+#menu{
+  height:461px;
+  position: relative;
+  .ul1{
+    height:41px;
+    border-bottom: 4px solid $darkgray;
+    position: relative;
+    p{
+      float: left;
+      width:192px;
+      height:41px;
+      color: $white;
+      font-size: 16px;
+      line-height: 41px;
+      font-weight: bolder;
+      padding-left: 48px;
+      background:$darkgray url(../images/menu1.jpg) no-repeat;
+      position: relative;
+      img{
+        @include link-position(0,194px);
+      }
+    }
+    li{
+      line-height: 41px;
+      float: left;
+      padding:0 30px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .li2{
+      background: url(../images/menu3.jpg) no-repeat left 10px;
+      padding:0 30px 0 35px;
+    }
+    .consult{
+      padding:0;
+      width:199px;
+      position: absolute;
+      right:0;
+    }
+  }
+  .ul2{
+    height:416px;
+    width:240px;
+    background-color: $darkred;
+    float: left;
+    li{
+      width:220px;
+      line-height: 33px;
+      padding-left:20px;
+      font-size: 14px;
+      color: $white;
+    }
+    p{
+      width:201px;
+      margin:20px 0 0 20px;
+      border-top:1px solid #f64104;
+      color: $white;
+      span{
+        display: block;
+        line-height:40px ;
+        font-size: 14px;
+        color: $white;
+      }
+      a{
+        display: inline-block;
+        line-height: 20px;
+        margin-right: 10px;
+      }
+    }
+  }
+  .spread{
+    z-index: 1;
+    position: absolute;
+    left:240px;
+    top:45px;
+    width:714px;
+    height:410px;
+    background-color: #fff;
+    border:3px solid #9f1e05;
+    ul{
+      float: left;
+      margin: 20px 0 0 20px;
+      height:370px;
+      border-right: 1px solid #ccc;
+    }
+    .ulLeft{
+      width:260px;
+      font-size: 14px;
+      line-height:40px;
+      li{
+        width:245px;
+        border-bottom: 1px solid #ccc;
+      }
+    }
+    .ulMiddle{
+      width:154px;
+      line-height: 20px;
+      padding-left: 20px;
+    }
+    p{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 40px;
+    }
+    .ulRight{
+      width: 214px;
+      border-right: none;
+      li{
+        height:111px;
+      }
+    }
+  }
+  .carousel{
+    width:720px;
+    height:416px;
+    float: left;
+    background: url("../images/1.png") no-repeat;
+    position: relative;
+    .tab{
+      position: absolute;
+      right:20px;
+      bottom:82px;
+      a{
+        display: inline-block;
+        width:27px;
+        height:27px;
+        background-color: $gray;
+        text-align: center;
+        line-height: 27px;
+        border-radius: 50%;
+      }
+      .info{
+        color: $white;
+        background-color: $darkred;
+      }
+    }
+    img{
+      position: absolute;
+      bottom:0;
+    }
+  }
+  .live_streaming{
+    width:242px;
+    height:416px;
+    float: left;
+    .live{
+      height:344px;
+      width:242px;
+      dd{
+        p{
+          text-align: center;
+          width:153px;
+          margin:0 0 5px 43px;
+        }
+        .p1{
+          line-height: 25px;
+          background-color:$lgray;
+          border-radius: 50px;
+        }
+        .p3{
+          color: $darkred;
+          font-size: 16px;
+          font-weight: bold;
+          span{
+            background-color:$darkred ;
+            color: $white;
+            display: inline-block;
+            width:90px;
+            line-height:25px;
+          }
+        }
+      }
+    }
+    .reduce{
+      height:72px;
+      width:242px;
+      background-color: $lgray;
+      dt{
+        float: left;
+      }
+      dd{
+        color: $gray;
+        float: left;
+        width:140px;
+        line-height: 20px;
+        margin-top: 5px;
+        p{
+          color: $darkred;
+          font-weight: bold;
+          span{
+            display: inline-block;
+            width:65px;
+            line-height: 20px;
+            text-align: center;
+            background-color: $darkred;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+/**************************今日特惠*****************************/
+#preference{
+  height:346px;
+  margin-top: 10px;
+  border-top: 3px solid #000;
+  a{
+    display: block;
+    width:25px;
+    line-height:25px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    text-align: center;
+    font-size: 14px;
+    color: $white;
+  }
+}
+.left{
+  width:240px;
+  height:345px;
+  border:1px solid $lgray;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  p{
+    line-height:36px;
+    font-size: 14px;
+    text-align: center;
+    background: url("../images/preference1.jpg") no-repeat 60px 5px;
+  }
+  .aLeft{
+    position: absolute;
+    top:5px;
+    left:10px;
+  }
+  .aRight{
+    position: absolute;
+    top:5px;
+    right:10px;
+  }
+  .today{
+    height:309px;
+    width:720px;
+    position: absolute;
+    top:36px;
+    left:0;
+    .dl1,.dl2{
+      height:309px;
+      width:240px;
+      float: left;
+      dt{
+        height:218px;
+        width:240px;
+        background: url("../images/today1.png") no-repeat 50% 50%;
+      }
+      dd{
+        text-align: center;
+        line-height: 25px;
+      }
+    }
+    .dl2{
+      dt{
+        background: url("../images/today2.png") no-repeat 50% 50%;
+      }
+    }
+  }
+}
+.middle{
+  width:723px;
+  height:345px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  .tv_hot{
+    line-height:34px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 33px;
+    border-bottom: 1px solid $lgray;
+  }
+  .hotPlay{
+    height:310px;
+    width:5061px;
+    position: absolute;
+    top:35px;
+    left:0;
+    dl{
+      width:240px;
+      border-bottom: 1px solid $lgray;
+      border-right: 1px solid $lgray;
+      float: left;
+      dt img{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin: auto;
+      }
+      dd .span1{
+        margin-top: 5px;
+        display: block;
+        line-height: 20px;
+        width:63px;
+        background-color: $darkred;
+        color: $white;
+        text-align: center;
+      }
+    }
+    .t1{
+      width:241px;
+      float: left;
+      .dl1{
+        height:154px;
+        dt{
+          float: left;
+          height:154px;
+          width:154px;
+          position: relative;
+        }
+        dd{
+          padding: 15px 0 0 10px;
+          width : 70px;
+          float: left;
+          line-height: 20px;
+        }
+      }
+    }
+    .dl2{
+      height:309px;
+      dt{
+        width:240px;
+        height:240px;
+        position: relative;
+      }
+      dd{
+        padding-left: 20px;
+        span{
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .a1Left{
+    position: absolute;
+    top:176px;
+    left:12px;
+    z-index: 1;
+  }
+  .a1Right{
+    position: absolute;
+    top:176px;
+    right:12px;
+    z-index: 1;
+  }
+}
+
+.right{
+  height:343px;
+  width:235px;
+  float: left;
+  border:1px solid $lgray;
+  h2{
+    text-align: center;
+    line-height: 35px;
+  }
+  ul{
+    margin-left: 15px;
+    li{
+      line-height: 25px;
+      color: #666666;
+    }
+  }
+}
+.ads{
+  margin:10px 0 0 32px;
+}
+/**********************Shopping navigation***********************/
+.Shopping_navigation{
+  margin-top: 10px;
+  height:380px;
+  h2{
+    color: $orange;
+    height:32px;
+    line-height: 32px;
+    border-bottom: 3px solid $orange;
+  }
+  .f2{
+    color: $f2;
+    border-bottom: 3px solid $f2;
+  }
+  .f3{
+    color: $f3;
+    border-bottom: 3px solid $f3;
+  }
+  .f4{
+    color: $f4;
+    border-bottom: 3px solid $f4;
+  }
+  .f5{
+    color: $f5;
+    border-bottom: 3px solid $f5;
+  }
+  .f6{
+    color: $f6;
+    border-bottom: 3px solid $f6;
+  }
+  .f7{
+    color: $f7;
+    border-bottom: 3px solid $f7;
+  }
+  .bargain{
+    height:345px;
+    width:240px;
+    float: left;
+    border-right: 1px solid $lgray;
+  }
+  ul{
+    width:959px;
+    height:34px;
+    border-bottom:1px solid $lgray;
+    border-right:1px solid $lgray;
+    float: left;
+    li{
+      margin-top: 10px;
+      float: left;
+      padding:0 33px;
+      color: $gray;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .li1{
+      color: $orange;
+      border-right:1px solid $gray;
+    }
+  }
+  .Parameters{
+    float: left;
+    width: 961px;
+    height:310px;
+    dl{
+      width:238px;
+      border-bottom: 1px solid $lgray;
+      border-right: 1px solid $lgray;
+      float: left;
+      dt img{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin: auto;
+      }
+      span{
+        margin-top: 10px;
+        display: block;
+      }
+    }
+    .commands{
+      width:241px;
+      float: left;
+      .dl1{
+        height:154px;
+        dt{
+          float: left;
+          height:154px;
+          width:154px;
+          position: relative;
+        }
+        dd{
+          padding: 15px 0 0 10px;
+          width : 70px;
+          float: left;
+          line-height: 20px;
+        }
+
+      }
+    }
+    .dl2{
+      height:309px;
+      dt{
+        width:238px;
+        height:240px;
+        position: relative;
+      }
+      dd{
+        padding-left: 20px;
+      }
+    }
+  }
+}
+/*********************** subscibe************************************/
+.subscibe{
+  height:48px;
+  border:1px solid $lgray;
+  margin-top: 15px;
+  position: relative;
+  p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    width:157px;
+    margin-left: 200px;
+  }
+  .search{
+    width:393px;
+    height:27px;
+    @include link-position(10px,360px);
+    input{
+      width:332px;
+      height:25px;
+      outline: none;
+      float:left;
+      border:1px solid #dddddd;
+    }
+    img{
+      float: left;
+    }
+  }
+  span{
+    @include link-position(15px,760px);
+    color: $gray;
+  }
+}
+/***************help******************/
+.help{
+  height:186px;
+  border-bottom: 1px solid #dddddd;
+  ul{
+    margin-top: 20px;
+    color: #666666;
+    li {
+      height:170px;
+      float: left;
+      padding: 0 35px;
+      line-height: 25px;
+      a{
+        display: block;
+      }
+    }
+  }
+  ul li:last-child{
+    border-left: 1px solid #dddddd;
+  }
+  ul li a:first-child{
+    color: #000;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  .img1{
+    margin-top: 40px;
+  }
+}
+/***************bottom******************/
+.bottom{
+  height:175px;
+  p{
+    span{
+      font-size: 16px;
+      font-weight: 800;
+    }
+    .span1{
+      color: #53585f;
+    }
+    text-align: center;
+    line-height: 25px;
+    color: $gray;
+  }
+  .p1{
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,933 @@
+@charset "UTF-8";
+.common {
+  width: 1202px;
+  margin-left: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  color: #d32402;
+  cursor: pointer;
+}
+
+.info {
+  text-decoration: underline;
+}
+
+.info1 {
+  color: #d32402;
+}
+
+#container {
+  width: 1263px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#head {
+  height: 32px;
+  background-color: #eeeeee;
+  position: relative;
+}
+#head .ul1 {
+  margin-left: 844px;
+}
+#head .ul1 li {
+  cursor: pointer;
+  float: left;
+  padding: 0 10px;
+  line-height: 32px;
+  position: relative;
+}
+#head .mine {
+  width: 80px;
+  background-color: #f2f2f2;
+  z-index: 1;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 32px;
+  left: -10px;
+  display: none;
+}
+#head .mine p {
+  text-align: center;
+}
+
+#logo, #menu, #preference, .Shopping_navigation, .subscibe {
+  width: 1202px;
+  margin-left: 32px;
+}
+
+#logo {
+  height: 203px;
+  position: relative;
+}
+#logo .img1 {
+  margin: 29px 50px 0 0;
+}
+#logo .ser {
+  width: 417px;
+  height: 42px;
+  position: absolute;
+  top: 120px;
+  left: 392px;
+}
+#logo .ser input {
+  width: 321px;
+  height: 36px;
+  border: 3px solid #d32402;
+  float: left;
+  outline: none;
+}
+#logo .ser img {
+  float: left;
+}
+#logo .free {
+  position: absolute;
+  top: 130px;
+  left: 847px;
+}
+#logo ul {
+  position: absolute;
+  top: 170px;
+  left: 392px;
+}
+#logo ul li {
+  float: left;
+  padding: 0 5px;
+  color: #999999;
+}
+
+/****************************鑿滃崟*******************************/
+#menu {
+  height: 461px;
+  position: relative;
+}
+#menu .ul1 {
+  height: 41px;
+  border-bottom: 4px solid #333;
+  position: relative;
+}
+#menu .ul1 p {
+  float: left;
+  width: 192px;
+  height: 41px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 41px;
+  font-weight: bolder;
+  padding-left: 48px;
+  background: #333 url(../images/menu1.jpg) no-repeat;
+  position: relative;
+}
+#menu .ul1 p img {
+  position: absolute;
+  top: 0;
+  left: 194px;
+}
+#menu .ul1 li {
+  line-height: 41px;
+  float: left;
+  padding: 0 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#menu .ul1 .li2 {
+  background: url(../images/menu3.jpg) no-repeat left 10px;
+  padding: 0 30px 0 35px;
+}
+#menu .ul1 .consult {
+  padding: 0;
+  width: 199px;
+  position: absolute;
+  right: 0;
+}
+#menu .ul2 {
+  height: 416px;
+  width: 240px;
+  background-color: #d32402;
+  float: left;
+}
+#menu .ul2 li {
+  width: 220px;
+  line-height: 33px;
+  padding-left: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+#menu .ul2 p {
+  width: 201px;
+  margin: 20px 0 0 20px;
+  border-top: 1px solid #f64104;
+  color: #fff;
+}
+#menu .ul2 p span {
+  display: block;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+}
+#menu .ul2 p a {
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 10px;
+}
+#menu .spread {
+  z-index: 1;
+  position: absolute;
+  left: 240px;
+  top: 45px;
+  width: 714px;
+  height: 410px;
+  background-color: #fff;
+  border: 3px solid #9f1e05;
+}
+#menu .spread ul {
+  float: left;
+  margin: 20px 0 0 20px;
+  height: 370px;
+  border-right: 1px solid #ccc;
+}
+#menu .spread .ulLeft {
+  width: 260px;
+  font-size: 14px;
+  line-height: 40px;
+}
+#menu .spread .ulLeft li {
+  width: 245px;
+  border-bottom: 1px solid #ccc;
+}
+#menu .spread .ulMiddle {
+  width: 154px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+#menu .spread p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+}
+#menu .spread .ulRight {
+  width: 214px;
+  border-right: none;
+}
+#menu .spread .ulRight li {
+  height: 111px;
+}
+#menu .carousel {
+  width: 720px;
+  height: 416px;
+  float: left;
+  background: url("../images/1.png") no-repeat;
+  position: relative;
+}
+#menu .carousel .tab {
+  position: absolute;
+  right: 20px;
+  bottom: 82px;
+}
+#menu .carousel .tab a {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background-color: #999999;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 50%;
+}
+#menu .carousel .tab .info {
+  color: #fff;
+  background-color: #d32402;
+}
+#menu .carousel img {
+  position: absolute;
+  bottom: 0;
+}
+#menu .live_streaming {
+  width: 242px;
+  height: 416px;
+  float: left;
+}
+#menu .live_streaming .live {
+  height: 344px;
+  width: 242px;
+}
+#menu .live_streaming .live dd p {
+  text-align: center;
+  width: 153px;
+  margin: 0 0 5px 43px;
+}
+#menu .live_streaming .live dd .p1 {
+  line-height: 25px;
+  background-color: #eeeeee;
+  border-radius: 50px;
+}
+#menu .live_streaming .live dd .p3 {
+  color: #d32402;
+  font-size: 16px;
+  font-weight: bold;
+}
+#menu .live_streaming .live dd .p3 span {
+  background-color: #d32402;
+  color: #fff;
+  display: inline-block;
+  width: 90px;
+  line-height: 25px;
+}
+#menu .live_streaming .reduce {
+  height: 72px;
+  width: 242px;
+  background-color: #eeeeee;
+}
+#menu .live_streaming .reduce dt {
+  float: left;
+}
+#menu .live_streaming .reduce dd {
+  color: #999999;
+  float: left;
+  width: 140px;
+  line-height: 20px;
+  margin-top: 5px;
+}
+#menu .live_streaming .reduce dd p {
+  color: #d32402;
+  font-weight: bold;
+}
+#menu .live_streaming .reduce dd p span {
+  display: inline-block;
+  width: 65px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #d32402;
+  color: #fff;
+}
+
+/**************************浠婃棩鐗规儬*****************************/
+#preference {
+  height: 346px;
+  margin-top: 10px;
+  border-top: 3px solid #000;
+}
+#preference a {
+  display: block;
+  width: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.left {
+  width: 240px;
+  height: 345px;
+  border: 1px solid #eeeeee;
+  border-top: none;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.left p {
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  background: url("../images/preference1.jpg") no-repeat 60px 5px;
+}
+.left .aLeft {
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+.left .aRight {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.left .today {
+  height: 309px;
+  width: 720px;
+  position: absolute;
+  top: 36px;
+  left: 0;
+}
+.left .today .dl1, .left .today .dl2 {
+  height: 309px;
+  width: 240px;
+  float: left;
+}
+.left .today .dl1 dt, .left .today .dl2 dt {
+  height: 218px;
+  width: 240px;
+  background: url("../images/today1.png") no-repeat 50% 50%;
+}
+.left .today .dl1 dd, .left .today .dl2 dd {
+  text-align: center;
+  line-height: 25px;
+}
+.left .today .dl2 dt {
+  background: url("../images/today2.png") no-repeat 50% 50%;
+}
+
+.middle {
+  width: 723px;
+  height: 345px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.middle .tv_hot {
+  line-height: 34px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 33px;
+  border-bottom: 1px solid #eeeeee;
+}
+.middle .hotPlay {
+  height: 310px;
+  width: 5061px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+.middle .hotPlay dl {
+  width: 240px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  float: left;
+}
+.middle .hotPlay dl dt img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.middle .hotPlay dl dd .span1 {
+  margin-top: 5px;
+  display: block;
+  line-height: 20px;
+  width: 63px;
+  background-color: #d32402;
+  color: #fff;
+  text-align: center;
+}
+.middle .hotPlay .t1 {
+  width: 241px;
+  float: left;
+}
+.middle .hotPlay .t1 .dl1 {
+  height: 154px;
+}
+.middle .hotPlay .t1 .dl1 dt {
+  float: left;
+  height: 154px;
+  width: 154px;
+  position: relative;
+}
+.middle .hotPlay .t1 .dl1 dd {
+  padding: 15px 0 0 10px;
+  width: 70px;
+  float: left;
+  line-height: 20px;
+}
+.middle .hotPlay .dl2 {
+  height: 309px;
+}
+.middle .hotPlay .dl2 dt {
+  width: 240px;
+  height: 240px;
+  position: relative;
+}
+.middle .hotPlay .dl2 dd {
+  padding-left: 20px;
+}
+.middle .hotPlay .dl2 dd span {
+  display: inline-block;
+}
+.middle .a1Left {
+  position: absolute;
+  top: 176px;
+  left: 12px;
+  z-index: 1;
+}
+.middle .a1Right {
+  position: absolute;
+  top: 176px;
+  right: 12px;
+  z-index: 1;
+}
+
+.right {
+  height: 343px;
+  width: 235px;
+  float: left;
+  border: 1px solid #eeeeee;
+}
+.right h2 {
+  text-align: center;
+  line-height: 35px;
+}
+.right ul {
+  margin-left: 15px;
+}
+.right ul li {
+  line-height: 25px;
+  color: #666666;
+}
+
+.ads {
+  margin: 10px 0 0 32px;
+}
+
+/**********************Shopping navigation***********************/
+.Shopping_navigation {
+  margin-top: 10px;
+  height: 380px;
+}
+.Shopping_navigation h2 {
+  color: #ff5500;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 3px solid #ff5500;
+}
+.Shopping_navigation .f2 {
+  color: #000;
+  border-bottom: 3px solid #000;
+}
+.Shopping_navigation .f3 {
+  color: #e7604d;
+  border-bottom: 3px solid #e7604d;
+}
+.Shopping_navigation .f4 {
+  color: #0a95d6;
+  border-bottom: 3px solid #0a95d6;
+}
+.Shopping_navigation .f5 {
+  color: #e55182;
+  border-bottom: 3px solid #e55182;
+}
+.Shopping_navigation .f6 {
+  color: #3e9a35;
+  border-bottom: 3px solid #3e9a35;
+}
+.Shopping_navigation .f7 {
+  color: #0b59a1;
+  border-bottom: 3px solid #0b59a1;
+}
+.Shopping_navigation .bargain {
+  height: 345px;
+  width: 240px;
+  float: left;
+  border-right: 1px solid #eeeeee;
+}
+.Shopping_navigation ul {
+  width: 959px;
+  height: 34px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  float: left;
+}
+.Shopping_navigation ul li {
+  margin-top: 10px;
+  float: left;
+  padding: 0 33px;
+  color: #999999;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Shopping_navigation ul .li1 {
+  color: #ff5500;
+  border-right: 1px solid #999999;
+}
+.Shopping_navigation .Parameters {
+  float: left;
+  width: 961px;
+  height: 310px;
+}
+.Shopping_navigation .Parameters dl {
+  width: 238px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  float: left;
+}
+.Shopping_navigation .Parameters dl dt img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.Shopping_navigation .Parameters dl span {
+  margin-top: 10px;
+  display: block;
+}
+.Shopping_navigation .Parameters .commands {
+  width: 241px;
+  float: left;
+}
+.Shopping_navigation .Parameters .commands .dl1 {
+  height: 154px;
+}
+.Shopping_navigation .Parameters .commands .dl1 dt {
+  float: left;
+  height: 154px;
+  width: 154px;
+  position: relative;
+}
+.Shopping_navigation .Parameters .commands .dl1 dd {
+  padding: 15px 0 0 10px;
+  width: 70px;
+  float: left;
+  line-height: 20px;
+}
+.Shopping_navigation .Parameters .dl2 {
+  height: 309px;
+}
+.Shopping_navigation .Parameters .dl2 dt {
+  width: 238px;
+  height: 240px;
+  position: relative;
+}
+.Shopping_navigation .Parameters .dl2 dd {
+  padding-left: 20px;
+}
+
+/*********************** subscibe************************************/
+.subscibe {
+  height: 48px;
+  border: 1px solid #eeeeee;
+  margin-top: 15px;
+  position: relative;
+}
+.subscibe p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 48px;
+  width: 157px;
+  margin-left: 200px;
+}
+.subscibe .search {
+  width: 393px;
+  height: 27px;
+  position: absolute;
+  top: 10px;
+  left: 360px;
+}
+.subscibe .search input {
+  width: 332px;
+  height: 25px;
+  outline: none;
+  float: left;
+  border: 1px solid #dddddd;
+}
+.subscibe .search img {
+  float: left;
+}
+.subscibe span {
+  position: absolute;
+  top: 15px;
+  left: 760px;
+  color: #999999;
+}
+
+/***************help******************/
+.help {
+  height: 186px;
+  border-bottom: 1px solid #dddddd;
+}
+.help ul {
+  margin-top: 20px;
+  color: #666666;
+}
+.help ul li {
+  height: 170px;
+  float: left;
+  padding: 0 35px;
+  line-height: 25px;
+}
+.help ul li a {
+  display: block;
+}
+.help ul li:last-child {
+  border-left: 1px solid #dddddd;
+}
+.help ul li a:first-child {
+  color: #000;
+  line-height: 40px;
+  font-weight: bold;
+}
+.help .img1 {
+  margin-top: 40px;
+}
+
+/***************bottom******************/
+.bottom {
+  height: 175px;
+}
+.bottom p {
+  text-align: center;
+  line-height: 25px;
+  color: #999999;
+}
+.bottom p span {
+  font-size: 16px;
+  font-weight: 800;
+}
+.bottom p .span1 {
+  color: #53585f;
+}
+.bottom .p1 {
+  margin-top: 20px;
+}
+
+.reg_logo {
+  height: 102px;
+  position: relative;
+}
+.reg_logo img {
+  position: absolute;
+  top: 23px;
+  left: 177px;
+}
+
+.step {
+  height: 41px;
+  width: 900px;
+  margin-left: 177px;
+  margin-top: 20px;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+.step li {
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 20px;
+  float: left;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #000;
+  border-bottom: none;
+}
+.step .new {
+  margin-left: 400px;
+  margin-right: 12px;
+  border-bottom: 1px solid #fff;
+  color: #e3393c;
+}
+.step p {
+  width: 152px;
+  line-height: 42px;
+  position: absolute;
+  right: 0;
+}
+.step p span {
+  color: #e3393c;
+}
+
+.register {
+  height: 512px;
+  margin-left: 177px;
+  position: relative;
+  background: url("../images/register1.jpg") no-repeat;
+}
+.register form {
+  width: 723px;
+  height: 480px;
+  position: absolute;
+  left: 351px;
+  padding-top: 32px;
+}
+.register form label {
+  display: inline-block;
+  width: 97px;
+  line-height: 36px;
+  text-align: right;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.register form input {
+  width: 270px;
+  height: 36px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+}
+.register form .phone {
+  background: url("../images/phone.jpg") no-repeat right top;
+}
+.register form .mail {
+  background: url("../images/mail.jpg") no-repeat right top;
+}
+.register form .password {
+  background: url("../images/password.jpg") no-repeat right 2px;
+}
+.register form .message {
+  width: 172px;
+  height: 30px;
+}
+.register form .putCode {
+  width: 138px;
+  height: 37px;
+}
+.register form .authCode {
+  display: inline-block;
+  width: 80px;
+  line-height: 33px;
+  background-color: #828282;
+  position: absolute;
+  bottom: 157px;
+  left: 270px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.register form .change {
+  position: absolute;
+  bottom: 165px;
+  left: 360px;
+  color: #999;
+}
+.register form .get {
+  margin-left: 10px;
+  width: 85px;
+  height: 33px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.register form .span1 {
+  color: #999;
+}
+.register form .reg_btn {
+  width: 272px;
+  height: 43px;
+  background-color: #d32402;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 107px;
+  bottom: 70px;
+}
+
+.bottom {
+  border-top: 1px solid #ccc;
+}
+
+.login {
+  height: 465px;
+  margin: 40px 0 0 177px;
+  position: relative;
+  border-top: 1px solid #000;
+  background: url("../images/login.jpg") no-repeat;
+}
+.login form {
+  width: 685px;
+  height: 433px;
+  position: absolute;
+  left: 400px;
+  padding-top: 32px;
+}
+.login form input {
+  padding-left: 8px;
+  width: 297px;
+  height: 32px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.login form .password {
+  background: url("../images/password.jpg") no-repeat right top;
+}
+.login form .user {
+  background: url("../images/user.jpg") no-repeat right top;
+}
+.login form .ipt3 {
+  width: 130px;
+  height: 37px;
+  margin-bottom: 33px;
+}
+.login form .cx {
+  width: 15px;
+  height: 15px;
+}
+.login form .code {
+  display: inline-block;
+  width: 82px;
+  line-height: 32px;
+  background-color: #828282;
+  position: absolute;
+  bottom: 252px;
+  left: 145px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.login form .cg {
+  margin-left: 90px;
+  color: #999;
+}
+.login form .login_btn {
+  width: 305px;
+  height: 43px;
+  background-color: #d32402;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 131px;
+}
+.login form ul {
+  position: absolute;
+  top: 257px;
+  left: 150px;
+}
+.login form ul li {
+  color: #999999;
+  float: left;
+}
+.login form p {
+  margin-top: 80px;
+  width: 136px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

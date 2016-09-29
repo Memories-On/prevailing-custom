@@ -1,0 +1,134 @@
+.reg_logo{
+  height:102px;
+  position: relative;
+  img{
+    position: absolute;
+    top:23px;
+    left: 177px;
+  }
+}
+.step{
+  height:41px;
+  width:900px;
+  margin-left: 177px;
+  margin-top: 20px;
+  border-bottom:1px solid #000;
+  position: relative;
+  li{
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    padding:0 20px;
+    float: left;
+    border-radius: 5px 5px 0 0;
+    border:1px solid #000;
+    border-bottom: none;
+  }
+  .new{
+    margin-left: 400px;
+    margin-right: 12px;
+    border-bottom:1px solid #fff;
+    color: #e3393c;
+  }
+  p{
+    width:152px;
+    line-height:42px;
+    position: absolute;
+    right:0;
+    span{
+      color: #e3393c;
+    }
+  }
+}
+.register{
+  height:512px;
+  margin-left: 177px;
+  position: relative;
+  background: url("../images/register1.jpg") no-repeat;
+  form{
+    width:723px;
+    height:480px;
+    position: absolute;
+    left: 351px;
+    padding-top: 32px;
+    label{
+      display: inline-block;
+      width:97px;
+      line-height:36px;
+      text-align: right;
+      margin-right:15px;
+      font-size: 14px;
+    }
+    input{
+      width:270px;
+      height:36px;
+      border:1px solid #ccc;
+      margin-bottom: 20px;
+      outline: none;
+    }
+    .phone{
+      background: url("../images/phone.jpg") no-repeat right top;
+    }
+    .mail{
+      background: url("../images/mail.jpg") no-repeat right top;
+    }
+    .password{
+      background: url("../images/password.jpg") no-repeat right 2px;
+    }
+    .message{
+      width:172px;
+      height:30px;
+    }
+    .putCode{
+      width:138px;
+      height:37px;
+    }
+    .authCode{
+      display: inline-block;
+      width:80px;
+      line-height:33px;
+      background-color: #828282;
+      position:absolute;
+      bottom:157px;
+      left:270px;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .change{
+      position: absolute;
+      bottom:165px;
+      left:360px;
+      color: #999;
+    }
+    .get{
+      margin-left: 10px;
+      width:85px;
+      height:33px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    .span1{
+      color: #999;
+    }
+    .reg_btn{
+      width:272px;
+      height:43px;
+      background-color: #d32402;
+      border:none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight:bold;
+      color: #fff;
+      position: absolute;
+      left:107px;
+      bottom:70px;
+    }
+  }
+}
+
+
+.bottom{
+  border-top: 1px solid #ccc;
+}
